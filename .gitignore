@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+venv/
+*.parquet
+*.csv
+news_archive/
+runlog.txt
+*.log
+config.py

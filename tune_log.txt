@@ -1,0 +1,354 @@
+/Users/face/Desktop/stock_model_project/stock_dataset.py:44: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(ticker, start=start_date, end=end_date)
+[*********************100%***********************]  1 of 1 completed
+/Users/face/Desktop/stock_model_project/stock_dataset.py:44: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(ticker, start=start_date, end=end_date)
+[*********************100%***********************]  1 of 1 completed
+/Users/face/Desktop/stock_model_project/stock_dataset.py:44: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(ticker, start=start_date, end=end_date)
+[*********************100%***********************]  1 of 1 completed
+/Users/face/Desktop/stock_model_project/stock_dataset.py:44: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(ticker, start=start_date, end=end_date)
+[*********************100%***********************]  1 of 1 completed
+/Users/face/Desktop/stock_model_project/stock_dataset.py:44: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(ticker, start=start_date, end=end_date)
+[*********************100%***********************]  1 of 1 completed
+/Users/face/Desktop/stock_model_project/stock_dataset.py:44: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(ticker, start=start_date, end=end_date)
+[*********************100%***********************]  1 of 1 completed
+/Users/face/Desktop/stock_model_project/stock_dataset.py:44: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(ticker, start=start_date, end=end_date)
+[*********************100%***********************]  1 of 1 completed
+/Users/face/Desktop/stock_model_project/stock_dataset.py:44: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(ticker, start=start_date, end=end_date)
+[*********************100%***********************]  1 of 1 completed
+/Users/face/Desktop/stock_model_project/stock_dataset.py:44: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(ticker, start=start_date, end=end_date)
+[*********************100%***********************]  1 of 1 completed
+/Users/face/Desktop/stock_model_project/stock_dataset.py:44: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(ticker, start=start_date, end=end_date)
+[*********************100%***********************]  1 of 1 completed
+/Users/face/Desktop/stock_model_project/stock_dataset.py:44: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(ticker, start=start_date, end=end_date)
+[*********************100%***********************]  1 of 1 completed
+/Users/face/Desktop/stock_model_project/stock_dataset.py:44: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(ticker, start=start_date, end=end_date)
+[*********************100%***********************]  1 of 1 completed
+/Users/face/Desktop/stock_model_project/stock_dataset.py:44: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(ticker, start=start_date, end=end_date)
+[*********************100%***********************]  1 of 1 completed
+/Users/face/Desktop/stock_model_project/stock_dataset.py:44: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(ticker, start=start_date, end=end_date)
+[*********************100%***********************]  1 of 1 completed
+/Users/face/Desktop/stock_model_project/stock_dataset.py:44: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  df = yf.download(ticker, start=start_date, end=end_date)
+[*********************100%***********************]  1 of 1 completed
+/Users/face/Desktop/stock_model_project/stock_dataset.py:201: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  data = data.groupby("ticker").apply(add_all_features).reset_index(drop=True)
+/Users/face/Desktop/stock_model_project/stock_dataset.py:206: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  vix = yf.download('^VIX', start=start_date, end=end_date)
+[*********************100%***********************]  1 of 1 completed
+/Users/face/Desktop/stock_model_project/stock_dataset.py:212: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  sp500 = yf.download("^GSPC", start=start_date, end=end_date)
+[*********************100%***********************]  1 of 1 completed
+/Users/face/Desktop/stock_model_project/stock_dataset.py:218: FutureWarning: YF.download() has changed argument auto_adjust default to True
+  qqq = yf.download("QQQ", start=start_date, end=end_date)
+[*********************100%***********************]  1 of 1 completed
+/Users/face/Desktop/stock_model_project/stock_dataset.py:243: FutureWarning: DataFrameGroupBy.apply operated on the grouping columns. This behavior is deprecated, and in a future version of pandas the grouping columns will be excluded from the operation. Either pass `include_groups=False` to exclude the groupings or explicitly select the grouping columns after groupby to silence this warning.
+  data = data.groupby("ticker").apply(calc_label).reset_index(drop=True)
+/Users/face/Desktop/stock_model_project/venv/lib/python3.11/site-packages/xgboost/training.py:183: UserWarning: [16:18:34] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:738: 
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+/Users/face/Desktop/stock_model_project/venv/lib/python3.11/site-packages/xgboost/training.py:183: UserWarning: [16:18:37] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:738: 
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+/Users/face/Desktop/stock_model_project/venv/lib/python3.11/site-packages/xgboost/training.py:183: UserWarning: [16:18:41] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:738: 
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+/Users/face/Desktop/stock_model_project/venv/lib/python3.11/site-packages/xgboost/training.py:183: UserWarning: [16:18:46] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:738: 
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+/Users/face/Desktop/stock_model_project/venv/lib/python3.11/site-packages/xgboost/training.py:183: UserWarning: [16:18:53] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:738: 
+Parameters: { "use_label_encoder" } are not used.
+
+  bst.update(dtrain, iteration=i, fobj=obj)
+
+DEBUG after features:
+Price       Date       Open  ...  break_3d_high  break_3d_low
+20757 2025-07-11  90.989998  ...              0             0
+20758 2025-07-14  87.750000  ...              0             0
+20759 2025-07-15  89.129997  ...              0             1
+20760 2025-07-16  87.769997  ...              0             0
+20761 2025-07-17  91.889999  ...              1             0
+20762 2025-07-18  91.610001  ...              1             0
+20763 2025-07-21  92.550003  ...              1             0
+20764 2025-07-22  92.250000  ...              0             1
+20765 2025-07-23  91.250000  ...              0             1
+20766 2025-07-24  88.839996  ...              0             1
+
+[10 rows x 66 columns]
+
+SAMPLE WITH LABELS:
+Price       Date ticker      Close  future_close  future_up_3d
+20757 2025-07-11    UAL  87.690002     88.470001             0
+20758 2025-07-14    UAL  88.940002     91.220001             1
+20759 2025-07-15    UAL  86.379997     92.250000             1
+20760 2025-07-16    UAL  88.470001     92.349998             1
+20761 2025-07-17    UAL  91.220001     90.779999             0
+20762 2025-07-18    UAL  92.250000     90.430000             0
+20763 2025-07-21    UAL  92.349998     89.730003             0
+20764 2025-07-22    UAL  90.779999           NaN             0
+20765 2025-07-23    UAL  90.430000           NaN             0
+20766 2025-07-24    UAL  89.730003           NaN             0
+
+Label Distribution (what % of cases are 'up'):
+future_up_3d
+0    0.648625
+1    0.351375
+Name: proportion, dtype: float64
+
+Average indicators by label:
+Price               RSI      MACD  MACD_signal  MACD_hist
+future_up_3d                                             
+0             52.585333  0.736871     0.720007   0.016864
+1             51.696159  0.378446     0.392200  -0.013754
+
+Number of rows BEFORE dropna: 20767
+Number of rows with NO NaNs in features+label: 20272
+
+Modeling on 20272 rows after dropna.
+
+Training on 16218 rows, holding out 4054 rows (from 2024-06-25 00:00:00 to 2025-07-24 00:00:00)
+[LightGBM] [Info] Number of positive: 1114, number of negative: 1589
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.000873 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 10251
+[LightGBM] [Info] Number of data points in the train set: 2703, number of used features: 56
+[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.500000 -> initscore=0.000000
+[LightGBM] [Info] Start training from score 0.000000
+[LightGBM] [Info] Number of positive: 2041, number of negative: 3365
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.001149 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 10496
+[LightGBM] [Info] Number of data points in the train set: 5406, number of used features: 56
+[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.500000 -> initscore=-0.000000
+[LightGBM] [Info] Start training from score -0.000000
+[LightGBM] [Info] Number of positive: 2868, number of negative: 5241
+[LightGBM] [Info] Auto-choosing col-wise multi-threading, the overhead of testing was 0.001516 seconds.
+You can set `force_col_wise=true` to remove the overhead.
+[LightGBM] [Info] Total Bins 10502
+[LightGBM] [Info] Number of data points in the train set: 8109, number of used features: 56
+[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.500000 -> initscore=0.000000
+[LightGBM] [Info] Start training from score 0.000000
+[LightGBM] [Info] Number of positive: 3839, number of negative: 6973
+[LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.001017 seconds.
+You can set `force_row_wise=true` to remove the overhead.
+And if memory is not enough, you can set `force_col_wise=true`.
+[LightGBM] [Info] Total Bins 10503
+[LightGBM] [Info] Number of data points in the train set: 10812, number of used features: 56
+[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.500000 -> initscore=-0.000000
+[LightGBM] [Info] Start training from score -0.000000
+[LightGBM] [Info] Number of positive: 4789, number of negative: 8726
+[LightGBM] [Info] Auto-choosing row-wise multi-threading, the overhead of testing was 0.001081 seconds.
+You can set `force_row_wise=true` to remove the overhead.
+And if memory is not enough, you can set `force_col_wise=true`.
+[LightGBM] [Info] Total Bins 10503
+[LightGBM] [Info] Number of data points in the train set: 13515, number of used features: 56
+[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.500000 -> initscore=-0.000000
+[LightGBM] [Info] Start training from score -0.000000
+
+CV-Averaged Random Forest Importances:
+Price
+VIX_Close              0.039236
+atr_pct                0.030487
+vix_return_3d          0.029785
+corr_sp500_10d         0.029310
+sp500_return_3d        0.027305
+dist_from_low          0.027163
+qqq_return_3d          0.026556
+high_low_range_5d      0.026272
+adx                    0.026062
+obv                    0.025315
+MACD_signal            0.024944
+intraday_volatility    0.024224
+dist_from_high         0.024203
+return_21d             0.024017
+cmf                    0.023500
+force_idx              0.023103
+return_3d_ma_diff      0.022801
+vol_ratio_3d_10d       0.022644
+return_10d             0.022396
+gap                    0.022254
+relative_vol_20d       0.022228
+MACD_hist              0.022004
+MACD                   0.021960
+volatility_10d         0.021953
+atr                    0.021951
+volume_ratio_5d        0.021718
+stoch_d                0.021487
+obv_change_3d          0.021297
+return_5d              0.021228
+volatility_5d          0.021219
+RSI                    0.020671
+stoch_k                0.020470
+emv                    0.020388
+daily_return           0.020149
+rel_strength           0.019772
+momentum_10d           0.019673
+cci                    0.019513
+williams_r             0.019498
+rsi_slope_3d           0.019485
+zscore_10d             0.019153
+return_3d              0.017781
+day_of_week            0.008828
+pct_up_days_10d        0.008469
+gap_up_streak_3d       0.006688
+up_days_5d             0.006332
+inside_bar             0.001796
+outside_bar            0.001544
+volume_surge_3d        0.001481
+break_3d_low           0.001443
+is_new_high_5d         0.001371
+break_3d_high          0.001367
+volume_spike           0.001179
+three_down_streak      0.001177
+above_ma20             0.001107
+three_up_streak        0.001075
+bullish_engulf         0.000967
+dtype: float64
+
+CV-Averaged XGBoost Importances:
+Price
+VIX_Close              0.032986
+vix_return_3d          0.030028
+atr_pct                0.029184
+volume_surge_3d        0.027367
+qqq_return_3d          0.026590
+sp500_return_3d        0.025490
+dist_from_low          0.022623
+MACD_signal            0.022388
+outside_bar            0.021543
+gap_up_streak_3d       0.021442
+dist_from_high         0.020770
+corr_sp500_10d         0.020379
+three_down_streak      0.019892
+MACD                   0.019644
+adx                    0.019571
+day_of_week            0.019391
+return_3d_ma_diff      0.019146
+obv                    0.018896
+force_idx              0.018521
+high_low_range_5d      0.018234
+return_5d              0.017902
+zscore_10d             0.017783
+volatility_10d         0.017767
+return_21d             0.017712
+is_new_high_5d         0.017659
+inside_bar             0.017600
+MACD_hist              0.017584
+return_10d             0.017277
+stoch_d                0.017245
+RSI                    0.017148
+bullish_engulf         0.017055
+stoch_k                0.016982
+cci                    0.016970
+pct_up_days_10d        0.016887
+cmf                    0.016868
+momentum_10d           0.016726
+rel_strength           0.016399
+atr                    0.016225
+relative_vol_20d       0.016116
+obv_change_3d          0.015986
+return_3d              0.015980
+gap                    0.015928
+vol_ratio_3d_10d       0.015457
+up_days_5d             0.015448
+rsi_slope_3d           0.015256
+volatility_5d          0.015157
+williams_r             0.014757
+volume_ratio_5d        0.014754
+daily_return           0.014714
+intraday_volatility    0.014696
+emv                    0.014391
+three_up_streak        0.013267
+above_ma20             0.012039
+break_3d_high          0.005196
+break_3d_low           0.003638
+volume_spike           0.003347
+dtype: float32
+
+CV-Averaged LightGBM Importances:
+Price
+vix_return_3d          195.8
+VIX_Close              176.4
+sp500_return_3d        133.4
+qqq_return_3d          133.0
+corr_sp500_10d         115.0
+dist_from_low          104.2
+adx                     93.8
+obv                     85.6
+atr_pct                 82.6
+cmf                     81.6
+MACD_signal             80.8
+dist_from_high          80.2
+return_21d              79.6
+force_idx               77.2
+high_low_range_5d       69.2
+gap                     68.8
+atr                     64.6
+MACD_hist               63.4
+vol_ratio_3d_10d        62.8
+stoch_d                 62.4
+return_10d              60.0
+relative_vol_20d        59.8
+volume_ratio_5d         58.6
+return_3d_ma_diff       57.6
+return_5d               56.2
+MACD                    53.0
+volatility_10d          52.8
+emv                     51.0
+RSI                     49.4
+williams_r              49.2
+intraday_volatility     49.2
+obv_change_3d           49.0
+daily_return            46.6
+cci                     45.2
+volatility_5d           44.2
+momentum_10d            41.0
+rsi_slope_3d            40.2
+rel_strength            39.8
+stoch_k                 39.4
+zscore_10d              37.8
+day_of_week             30.4
+return_3d               23.8
+gap_up_streak_3d        18.4
+pct_up_days_10d         13.6
+up_days_5d               8.8
+three_down_streak        3.6
+volume_surge_3d          2.8
+inside_bar               1.8
+bullish_engulf           1.4
+above_ma20               1.0
+three_up_streak          1.0
+break_3d_high            0.8
+break_3d_low             0.8
+is_new_high_5d           0.6
+outside_bar              0.6
+volume_spike             0.2
+dtype: float64
+
+Features to drop (low importance in all tree models): {'pct_up_days_10d', 'three_down_streak', 'break_3d_high', 'RSI', 'rsi_slope_3d', 'rel_strength', 'is_new_high_5d', 'up_days_5d', 'volume_surge_3d', 'day_of_week', 'volume_spike', 'cci', 'volatility_5d', 'return_3d', 'gap_up_streak_3d', 'bullish_engulf', 'daily_return', 'stoch_k', 'inside_bar', 'above_ma20', 'three_up_streak', 'williams_r', 'intraday_volatility', 'break_3d_low', 'obv_change_3d', 'zscore_10d', 'outside_bar', 'momentum_10d'}
+
+Feature count before drop: 56
+Feature count after drop: 28
+Fitting 5 folds for each of 20 candidates, totalling 100 fits
+                         /Users/face/Desktop/stock_model_project/venv/lib/python3.11/site-packages/joblib/externals/loky/backend/resource_tracker.py:299: UserWarning: resource_tracker: There appear to be 14 leaked semlock objects to clean up at shutdown
+  warnings.warn(
+/Users/face/Desktop/stock_model_project/venv/lib/python3.11/site-packages/joblib/externals/loky/backend/resource_tracker.py:299: UserWarning: resource_tracker: There appear to be 1 leaked folder objects to clean up at shutdown
+  warnings.warn(
+/Users/face/Desktop/stock_model_project/venv/lib/python3.11/site-packages/joblib/externals/loky/backend/resource_tracker.py:315: UserWarning: resource_tracker: /var/folders/kd/59mvlvx16qz73xp62xmtlg580000gn/T/joblib_memmapping_folder_45013_f60218cece064493884a1dbff9094eee_0698faaa8ee943f2bda988a83e21efb8: FileNotFoundError(2, 'No such file or directory')
+  warnings.warn(f"resource_tracker: {name}: {e!r}")
